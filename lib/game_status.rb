@@ -53,5 +53,6 @@ def winner(board)
         return "O"
       end
     end
+  end
     #return false
 end
