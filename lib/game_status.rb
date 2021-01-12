@@ -20,10 +20,10 @@ def won?(board)
   WIN_COMBINATIONS.each do |combinations|
     if (board[combinations[0]]== "X" && board[combinations[1]]=="X" && board[combinations[2]]=="X") ||
       (board[combinations[0]] == "O" && board[combinations[1]]== "O" && board[combinations[2]]== "O")
-    return combinations
+      return combinations
+    end
   end
-end
-return false
+  return false
 end
 
 def full?(board)
