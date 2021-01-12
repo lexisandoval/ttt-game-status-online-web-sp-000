@@ -15,3 +15,8 @@ WIN_COMBINATIONS = [
   [2,4,6]  # Diag 2
   # ETC, an array for each win combination
 ]
+
+def won?(board)
+  
+end
+  
