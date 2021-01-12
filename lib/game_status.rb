@@ -54,5 +54,4 @@ def winner(board)
       end
     end
   end
-    #return false
 end
